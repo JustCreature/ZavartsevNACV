@@ -9,7 +9,7 @@ img {
     max-width: 100%;
 }
 body {
-    background-color: rgb(32, 31, 31);
+    background-color: rgb(150, 144, 144);
     margin: 0;
     color: seashell;
     font-family: 'Bitter', serif;
@@ -34,11 +34,11 @@ body {
 .hero {
     padding-top: 50px;
     padding-bottom: 155px;
-    background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+    background: linear-gradient(0deg, #818181 0.01%, rgba(88, 85, 85, 0) 95.44%);
 }
 .hero-header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;
     margin-bottom: 105px;
 }
@@ -61,7 +61,7 @@ body {
     margin-bottom: 14px;
 }
 .hero-title {
-    font-weight: bold
+    font-weight: bold;
     font-size: 50px;
     line-height: 59px;
     margin-top: 0px;
@@ -75,8 +75,8 @@ body {
 }
 .button {
     display: inline-block;
-    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
-    box-shadow: 0px 4px 0px #B68500;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(85, 85, 85) 100%);
+    box-shadow: 0px 4px 0px rgb(165, 160, 160);
     border: none;
     border-radius: 5px 5px 10px 10px;
     padding: 24px 42px;
@@ -84,7 +84,7 @@ body {
     line-height: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    color: black;
+    color: rgb(192, 189, 189)90, 190, 190);
 }
 .hero-avatar {
     width: 389px;
@@ -100,7 +100,7 @@ body {
 
 /* features */
 .features {
-    background-color: black;
+    background-color: #818181;
 }
 .features-block {
     display: flex;
@@ -132,7 +132,7 @@ body {
 /* projects */
 
 .projects {
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+    background: linear-gradient(180deg, #818181 0%, rgba(0, 0, 0, 0) 95.44%);
 }
 .project-slide {
     display: flex;
@@ -197,58 +197,13 @@ body {
 
 /* contacts */
 
-.contacts-form {
-    background: #FFFFFF;
-    box-shadow: -5px 5px 0px #FFC41D;
-    border-radius: 5px;
-    max-width: 380px;
-    padding-top: 40px;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-bottom: 49px;
+footer {
+    justify-content: center;
 }
-.form-title {
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    margin: 0px;
-    margin-bottom: 29px;
-}
-.input {
-    background: #F8F8F8;
-    border: none;
-    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
-    border-radius: 5px;
-    padding: 18px 20px;
-    padding-left: 50px;
-    width: 100%;
-    font-size: 14px;
-    line-height: 28px;
-}
-.input-name {
-    margin-bottom: 17px;
-    background-image: url(../imgs/user-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-}
-.input-phone {
-    margin-bottom: 17px;
-    background-image: url(../imgs/phone-icon.svg);
-    background-repeat: no-repeat;
-    background-position: center left 20px;
-}
-.form-button {
-    width: 100%;
-}
-.contacts-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
 }
 .contacts-text {
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 .contacts-data {
     display: flex;
@@ -256,7 +211,7 @@ body {
     margin-bottom: 42px;
 }
 .contacts-phone, .contacts-mail {
-    flex-basis: 50%;
+    flex-basis: 40%;
     margin-bottom: 53px;
 }
 .contacts-social {
