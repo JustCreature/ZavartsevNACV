@@ -14,6 +14,20 @@ body {
     color: seashell;
     font-family: 'Bitter', serif;
 }
+.RML-link {
+    /* text-decoration: none; */
+    color: seashell;
+    font-family: 'Bitter', serif;
+}
+.big-but-git {
+    margin: 0;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    margin-right: 20px;
+    width: 30px;
+    filter: invert(1);
+}
 .container {
     width: 90%;
     max-width: 945px;
@@ -113,7 +127,7 @@ body {
     margin-right: 10px;
 }
 .feature-item-ed {
-    flex-basis: 50%;
+    flex-basis: 40%;
     margin-bottom: 63px;
     margin-right: 10px;
 }
